@@ -71,3 +71,13 @@ Clicking on the navbar links smoothly scrolls the page to the corresponding sect
 This is handled by the CSS rule html { scroll-behavior: smooth; }.
 
 It creates a smooth scrolling animation instead of an abrupt jump, which is visually nicer and improves user experience when navigating your one-page portfolio.
+
+7. Downloadable CV
+Trigger: Click on the "Download CV" button
+Effect:
+
+When the user clicks the "Download CV" button (often a button or link labeled like "Download CV" or "Get Resume"), the browser initiates a download of your CV file.
+
+This is usually done with an anchor (<a>) element that links directly to your CV file (commonly a PDF), and includes the download attribute to prompt the browser to download instead of opening it. The download starts immediately, allowing the user to save your CV to their device.
+
+This feature makes it easy for potential employers or clients to quickly get a copy of your CV without navigating away from your portfolio.
